@@ -17,6 +17,8 @@
 
 ```text
 PUT ANSWER TO #2 HERE
+
+Yes, the point "blank" is one of many mutable objects in Java.
 ```
 
 ```java
@@ -41,6 +43,7 @@ public class Puzzler {
 
 3. Using the [Python Tutor code visualizer](https://pythontutor.com/java.html#mode=edit) for Java, capture a stack diagram showing the state of the below program just before **findCenter** returns.
     * Save the image taken above to your project as Part1_3.jpg.
+    * 
 4. Using the [Python Tutor code visualizer](https://pythontutor.com/java.html#mode=edit) for Java, capture a stack diagram showing the state of the program just before **distance** returns.
     * Save the image taken above to your project as Part1_4.jpg.
 5. Answer the following question below in the **text** block below:
@@ -48,6 +51,9 @@ public class Puzzler {
 
 ```text
 PUT ANSWER TO #5 HERE
+They are very different. The first method returns a point (x,y).
+The next method returns a radical of a derivative of the point XY, which happens to be 5.
+
 ```
 
 ```java
@@ -86,15 +92,19 @@ Recall that aliases are two variables that refer to the same object.
 2. What is the output of the program?
     * Put the output in the text block below
 
+   
+
 ```text
-PUT ANSWER TO #2 HERE
+"(5,8)
+    * (5,8)"
 ```
 
 3. At the end of main, are p1 and p2 aliased? Why or why not?
     * Put your answer in the text block below
 
 ```text
-PUT ANSWER TO #3 HERE
+I believe they are not aliased because p2 will always be larger. The code fragment grow.Box (1,1)
+ensures that p2 will always be greater than p1 no matter the size of the Box at the beginning.
 ```
 
 ```java
